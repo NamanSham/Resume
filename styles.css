@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-pic {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px;
+    float: left;
+    border: solid 1px #CCC;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section {
+    margin-bottom: 20px;
+    background-color: #f8f9fa; /* use the color #f8f9fa */
+    padding: 20px;
+    border-radius: 10px; /* add rounded corners */
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
